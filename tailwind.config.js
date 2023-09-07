@@ -7,11 +7,20 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      "colors": {
+        "bright-red": "hsl(12, 88%, 59%)",
+        "dark-blue": "hsl(228, 39%, 23%)",
+        "dark-gray-blue": "hsl(227, 12%, 61%)",
+        "very-dark-blue": "hsl(233, 12%, 13%)",
+        "very-pale-red": "hsl(13, 100%, 96%)",
+        "very-light-gray": "hsl(0, 0%, 98%)"
       },
+      "fontSize": {
+        rem : "16px"
+      },
+      "fontFamily": {
+        "my-font": ['Be Vietnam Pro']
+      }
     },
   },
   plugins: [],
